@@ -64,7 +64,7 @@ public class CreditCardsMain {
 
       bank.setOwnedCards(Set.of(creditCard1,creditCard2));
 
-      // Persist
+      // Persist Objects
       em.persist(customer);
       em.persist(address);
       em.persist(creditCard1);
